@@ -377,10 +377,10 @@ QBShared.Items = {
 	['firework4'] 				 	 = {['name'] = 'firework4', 			  	  	['label'] = 'Weeping Willow', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'firework4.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Fireworks'},
 
 	-- Sea Tools
-    ['dendrogyra_coral'] 			 = {['name'] = 'dendrogyra_coral', 			  	['label'] = 'Dendrogyra', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'dendrogyra_coral.png', 	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its also known as pillar coral'},
-    ['antipatharia_coral'] 			 = {['name'] = 'antipatharia_coral', 			['label'] = 'Antipatharia', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'antipatharia_coral.png', 	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its also known as black corals or thorn corals'},
+	['dendrogyra_coral'] 			 = {['name'] = 'dendrogyra_coral', 			  	['label'] = 'Dendrogyra', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'dendrogyra_coral.png', 	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its also known as pillar coral'},
+	['antipatharia_coral'] 			 = {['name'] = 'antipatharia_coral', 			['label'] = 'Antipatharia', 			['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'antipatharia_coral.png', 	['unique'] = false, 	['useable'] = false, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Its also known as black corals or thorn corals'},
 	['diving_gear'] 			     = {['name'] = 'diving_gear', 					['label'] = 'Diving Gear', 				['weight'] = 30000, 	['type'] = 'item', 		['image'] = 'diving_gear.png', 			['unique'] = true, 	    ['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'An oxygen tank and a rebreather'},
-    ['diving_fill']                  = {['name'] = 'diving_fill',                   ['label'] = 'Diving Tube',              ['weight'] = 3000,      ['type'] = 'item',      ['image'] = 'diving_tube.png',          ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['discription'] = 'An oxygen tube and a rebreather'},
+	['diving_fill']                  = {['name'] = 'diving_fill',                   ['label'] = 'Diving Tube',              ['weight'] = 3000,      ['type'] = 'item',      ['image'] = 'diving_tube.png',          ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['discription'] = 'An oxygen tube and a rebreather'},
 	
 	-- Other Tools
 	['casinochips'] 				 = {['name'] = 'casinochips', 			  	  	['label'] = 'Casino Chips', 			['weight'] = 0, 		['type'] = 'item', 		['image'] = 'casinochips.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'Chips For Casino Gambling'},
@@ -398,4 +398,12 @@ QBShared.Items = {
 	['spraycan'] 			 		 = {['name'] = 'spraycan', 			  	['label'] = 'spraycan', 			['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'spraycan.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A MultiColor Spray Can'},
 	['rag'] 			 		 = {['name'] = 'rag', 			  	['label'] = 'rag', 			['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'rag.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Rag used as Spray Remover'},
 
+	-- backpack and cases
+	["backpack1"] = {["name"] = "backpack1", ["label"] = "Backpack 1", ["weight"] = 7500, ["type"] = "item", ["image"] = "backpack_girl.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Backpack"},
+	["backpack2"] = {["name"] = "backpack2", ["label"] = "Backpack 2", ["weight"] = 15000, ["type"] = "item", ["image"] = "backpack_boy.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Backpack"},
+	["briefcase"] = {["name"] = "briefcase", ["label"] = "Briefcase", ["weight"] = 10000, ["type"] = "item", ["image"] = "briefcase.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Briefcase"},
+	["paramedicbag"] = {["name"] = "paramedicbag", ["label"] = "Paramedic bag", ["weight"] = 5000, ["type"] = "item", ["image"] = "paramedic_bag.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Paramedic bag"},
+
+	-- new item
+	["briefcaselockpicker"] = {["name"] = "briefcaselockpicker", ["label"] = "Briefcase Lockpicker", ["weight"] = 500, ["type"] = "item", ["image"] = "lockpick.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Briefcase Lockpicker"},
 }
