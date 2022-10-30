@@ -423,4 +423,10 @@ QBShared.Items = {
 	["tree_bark"]						= {["name"] = "tree_bark",  	  		["label"] = "Tree Bark",	  	["weight"] = 50, 		["type"] = "item", 		["image"] = "treebark.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["wood_plank"]						= {["name"] = "wood_plank",  	  		["label"] = "Wood Plank",	  	["weight"] = 50, 		["type"] = "item", 		["image"] = "woodplank.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 
+	-- cigarettes
+	['redwoodcigs'] 				 	= {['name'] = 'redwoodcigs', 			['label'] = 'Redwood Cigarettes', 	['weight'] = 250, 		["degrade"] = 1.0,		['type'] = 'item', 		['image'] = 'redwoodcigs.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pack of Cigarettes, Made in USA'},
+	['cardiaquecigs'] 				 	= {['name'] = 'cardiaquecigs', 			['label'] = 'Cardiaque Cigarettes', ['weight'] = 250, 		["degrade"] = 1.0,		['type'] = 'item', 		['image'] = 'cardiaquecigs.png', 			['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pack of Cigarettes, Made in USA'},
+	['yukoncigs'] 				 		= {['name'] = 'yukoncigs', 				['label'] = 'Yukon Cigarettes', 	['weight'] = 250, 		["degrade"] = 1.0,		['type'] = 'item', 		['image'] = 'yukoncigs.png', 				['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Pack of Menthol Cigarettes, Made in USA'},
+	["cigarette"] 						= {["name"] = "cigarette",  	     	["label"] = "Cigarette",	 		["weight"] = 250, 		["type"] = "item", 		["image"] = "cigarette.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Smokeable Tobacco"},
+
 }
