@@ -395,8 +395,8 @@ QBShared.Items = {
 	['printerdocument'] 			 = {['name'] = 'printerdocument', 				['label'] = 'Document', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'printerdocument.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice document'},
 
 	-- spraycan
-	['spraycan'] 			 		 = {['name'] = 'spraycan', 			  	['label'] = 'spraycan', 			['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'spraycan.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A MultiColor Spray Can'},
-	['rag'] 			 		 = {['name'] = 'rag', 			  	['label'] = 'rag', 			['weight'] = 5000, 		['type'] = 'item', 		['image'] = 'rag.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Rag used as Spray Remover'},
+	['spraycan'] 			 		 = {['name'] = 'spraycan', 			  	['label'] = 'spraycan', 			['weight'] = 500, 		['type'] = 'item', 		['image'] = 'spraycan.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A MultiColor Spray Can'},
+	['rag'] 			 		 = {['name'] = 'rag', 			  	['label'] = 'rag', 			['weight'] = 500, 		['type'] = 'item', 		['image'] = 'rag.png', 	['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A Rag used as Spray Remover'},
 
 	-- backpack and cases
 	["backpack1"] = {["name"] = "backpack1", ["label"] = "Backpack 1", ["weight"] = 7500, ["type"] = "item", ["image"] = "backpack_girl.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Backpack"},
