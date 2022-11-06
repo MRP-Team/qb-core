@@ -403,6 +403,7 @@ QBShared.Items = {
 	["backpack2"] = {["name"] = "backpack2", ["label"] = "Backpack 2", ["weight"] = 15000, ["type"] = "item", ["image"] = "backpack_boy.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Backpack"},
 	["briefcase"] = {["name"] = "briefcase", ["label"] = "Briefcase", ["weight"] = 10000, ["type"] = "item", ["image"] = "briefcase.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Briefcase"},
 	["paramedicbag"] = {["name"] = "paramedicbag", ["label"] = "Paramedic bag", ["weight"] = 5000, ["type"] = "item", ["image"] = "paramedic_bag.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Paramedic bag"},
+	["fishicebox"] = {["name"] = "fishicebox", ["label"] = "Fish ice box", ["weight"] = 10000, ["type"] = "item", ["image"] = "fishicebox.png", ["unique"] = true, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Fish ice box"},
 
 	-- new item
 	["briefcaselockpicker"] = {["name"] = "briefcaselockpicker", ["label"] = "Briefcase Lockpicker", ["weight"] = 500, ["type"] = "item", ["image"] = "lockpick.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Briefcase Lockpicker"},
