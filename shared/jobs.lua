@@ -19,7 +19,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = 'Logger',
-                payment = 50
+                payment = 10
             },
         },
 	},
@@ -136,7 +136,7 @@ QBShared.Jobs = {
             },
         },
 	},
-     ['bus'] = {
+    ['bus'] = {
 		label = 'Bus',
 		defaultDuty = true,
 		offDutyPay = false,
