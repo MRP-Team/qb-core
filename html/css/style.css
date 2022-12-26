@@ -4,33 +4,30 @@ html::-webkit-scrollbar {
 
 @media (width: 3840px) and (height: 2160px) {
     .success {
-        border: 1px solid rgba(36, 241, 6, 0.46);
-        background-color: rgba(7, 149, 66, 0.35);
-        box-shadow: 0px 0px 2px #259c08;
+        border: none;
+        background: linear-gradient(to right, #00c989e3, #00000000);
         color: white !important;
         font-weight: 600;
-        text-shadow: 2px 1px #00040a;
         font-size: 1.5vh;
+        border-radius: 20px 0 0 0;
     }
 
     .primary {
-        border: 1px solid rgba(6, 44, 241, 0.46);
-        background-color: rgba(7, 73, 149, 0.35);
-        box-shadow: 0px 0px 2px #0396ff;
+        border: none;
+        background: linear-gradient(to right, #3284a3e3, #00000000);
         color: white !important;
         font-weight: 600;
-        text-shadow: 2px 1px #00040a;
         font-size: 1.5vh;
+        border-radius: 20px 0 0 0;
     }
 
     .error {
-        border: 1px solid rgba(241, 6, 6, 0.81);
+        border: none;
         background-color: rgba(220, 17, 1, 0.33);
-        box-shadow: 0px 0px 2px #ff0303;
         color: white !important;
         font-weight: 600;
-        text-shadow: 2px 1px #00040a;
         font-size: 1.5vh;
+        border-radius: 20px 0 0 0;
     }
 
     .police {
@@ -52,15 +49,11 @@ html::-webkit-scrollbar {
 }
 
 .success {
-    border: 1px solid rgba(36, 241, 6, 0.46);
-    box-shadow: 0px 0px 2px #259c08;
+    border: none;
     color: white !important;
     font-weight: 600;
-    text-shadow: 2px 1px #00040a;
-    background-color: rgba(7, 149, 66, 0.35);
-    border-radius: 10px;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
-    border-left: 0.5rem solid #20bb44;
+    background: linear-gradient(to right, #00c989e3, #00000000);
+    border-radius: 20px 0 0 0;
 }
 
 .success .material-icons {
@@ -68,15 +61,11 @@ html::-webkit-scrollbar {
 }
 
 .primary {
-    border: 1px solid rgba(6, 44, 241, 0.46);
-    box-shadow: 0px 0px 2px #0396ff;
+    border: none;
     color: white !important;
     font-weight: 600;
-    text-shadow: 2px 1px #00040a;
-    background-color: rgba(7, 73, 149, 0.35);
-    border-radius: 10px;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
-    border-left: 5px solid #1c75d2;
+    background: linear-gradient(to right, #3284a3e3, #00000000);
+    border-radius: 20px 0 0 0;
 }
 
 .primary .material-icons {
@@ -84,15 +73,11 @@ html::-webkit-scrollbar {
 }
 
 .error {
-    border: 1px solid rgba(241, 6, 6, 0.81);
-    box-shadow: 0px 0px 2px #ff0303;
+    border: none;
     color: white !important;
     font-weight: 600;
-    text-shadow: 2px 1px #00040a;
-    background-color: rgba(220, 17, 1, 0.33);
-    border-radius: 10px;
-    box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
-    border-left: 5px solid #c10114;
+    background: linear-gradient(to right, #c90700e3, #00000000);
+    border-radius: 20px 0 0 0;
 }
 
 .error .material-icons {
