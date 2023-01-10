@@ -716,4 +716,7 @@ QBShared.Items = {
 
 	-- crafting-blueprint
 	["blueprint_document"]				 	 = {["name"] = "blueprint_document", 						["label"] = "Blueprint", 				["weight"] = 100, 	["type"] = "item", 		["image"] = "blueprint_document.png", 			["unique"] = true, 		["useable"] = false, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "A blueprint document that help you craft."},
+
+	-- vehiclekey
+	['vehiclekey'] 				 	 = {['name'] = 'vehiclekey',					['label'] = 'Vehicle key', 					['weight'] = 0, 		['type'] = 'item', 		['image'] = 'vehiclekeys.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = "This is a car key, take good care of it, if you lose it you probably won't be able to use your car"},
 }
