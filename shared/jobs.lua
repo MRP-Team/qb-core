@@ -295,8 +295,8 @@ QBShared.Jobs = {
             },
         },
 	},
-    ["burgershot"] = {
-		label = "Burgershot Employee",
+    ["farmer"] = {
+		label = "Farmer",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
@@ -308,7 +308,7 @@ QBShared.Jobs = {
                 payment = 75
             },
                 ['2'] = {
-                name = "Burger Flipper",
+                name = "Trader",
                 payment = 100
             },
                 ['3'] = {
