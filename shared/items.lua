@@ -485,6 +485,8 @@ QBShared.Items = {
 	["tomato"] 						= {["name"] = "tomato",  	  			["label"] = "tomato",	    	["weight"] = 15, 		["type"] = "item", 		["image"] = "tomato.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["soybeans"] 						= {["name"] = "soybeans",  	  			["label"] = "Soy Beans",	    ["weight"] = 10, 		["type"] = "item", 		["image"] = "soybeans.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["eggs"] 					        = {["name"] = "eggs",  	    			["label"] = "Eggs",	            ["weight"] = 25, 		["type"] = "item", 		["image"] = "eggs.png", 		        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Eggs"},
+	["rawchicken"] 					        = {["name"] = "rawchicken",  	    			["label"] = "Raw chicken",	            ["weight"] = 2500, 		["type"] = "item", 		["image"] = "rawchicken.png", 		        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Raw chicken"},
+	["rawmeat"] 					        = {["name"] = "rawmeat",  	    			["label"] = "Raw Cow Meat",	            ["weight"] = 1000, 		["type"] = "item", 		["image"] = "rawmeat.png", 		        ["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Raw cow meat"},
 
 	['outdoor_grill'] = {['name'] = 'outdoor_grill', ['label'] = 'Grill', ['weight'] = 20000, ['type'] = 'item', ['image'] = 'outdoor_grill.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'For all your outdoor bbq needs.'},
 
