@@ -57,6 +57,7 @@ QBShared.Jobs = {
 	},
 	['ambulance'] = {
 		label = 'EMS',
+        type = 'ems',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
